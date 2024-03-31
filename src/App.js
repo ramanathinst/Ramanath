@@ -42,22 +42,12 @@ function App(props) {
     }, 2000);
   }
 
-
-
-
   return (
     <>
 
       <Navbar title="Ramanath" mode={mode} cngModeBtn={toggleBtn} />
       <Alert alert={alert} />
-      <About/>
-    
-
-
-
-
-      
-
+      <About />
 
     </>
   );
