@@ -1,11 +1,8 @@
 import React, { useState } from 'react'
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import Alert from './components/Alert';
 import About from './components/About';
-
-
 
 function App(props) {
   // nav bar 
@@ -44,10 +41,11 @@ function App(props) {
 
   return (
     <>
-
-      <Navbar title="Ramanath" mode={mode} cngModeBtn={toggleBtn} />
+      <Navbar mode={mode} cngModeBtn={toggleBtn} />
       <Alert alert={alert} />
       <About />
+
+
 
     </>
   );
